@@ -12,12 +12,15 @@ import UseContextExample from "./components/UseContextExample"
 import UseReducerExample from "./components/Reducer/UseReducerExample"
 import UseLayoutExample from "./components/Layout/UseLayoutExample"
 import CustomHooksExample from "./components/CustomHooks/CustomHooksExample"
+import Forms from "./ControlledComponent/Forms"
+import BestForm from "./ControlledComponent/BestForm"
 
 function App() {
 
 
   return (
     <>
+      {/*1. Hooks  */}
       {/* <UseStateExample /> */}
       {/* <UseStateExample2 /> */}
       {/* <UseStateExample3 /> */}
@@ -36,7 +39,13 @@ function App() {
 
       {/* <UseLayoutExample /> */}
 
-      <CustomHooksExample />
+      {/* <CustomHooksExample /> */}
+
+
+      {/* 2. Forms & Controlled Components  */}
+      {/* <Forms /> */}
+      <BestForm />
+
     </>
   )
 }
