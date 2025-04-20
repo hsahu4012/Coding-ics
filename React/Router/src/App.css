@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+.nav-link {
+  color: blue;
+}
+
+.nav-link:active {
+  color: red;
+  background-color: black;
+}
